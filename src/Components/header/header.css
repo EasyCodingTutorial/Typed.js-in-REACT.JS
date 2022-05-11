@@ -1,0 +1,39 @@
+.header {
+  position: relative;
+}
+.header img {
+  height: 100vh;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.5;
+}
+.Content {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: #fff !important;
+}
+.Content h6 {
+  font-size: 80px;
+  font-weight: 900;
+}
+.Content h6 span {
+  font-size: 90px;
+  color: var(--main);
+}
+.Content p {
+  font-size: 12px;
+}
+.btn {
+  margin: 20px auto;
+}
